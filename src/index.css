@@ -1,0 +1,14 @@
+html {
+  font-size: 10px;
+  font-family: Roboto,Arial,sans-serif;
+  color: #111111;
+  background-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding: 0 env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  font-size: 1.2rem;
+  overflow-x: hidden;
+}
