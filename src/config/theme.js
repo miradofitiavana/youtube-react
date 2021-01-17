@@ -1,7 +1,15 @@
 const themeLight = {
-  primary: '#fff'
+  bgc: '#fff',
+  panelBgc: '#fff',
+  color: '#424242',
+  headingColor: '#424242'
 }
 
-const themeDark = {}
+const themeDark = {
+  bgc: '#191919',
+  panelBgc: '#282828',
+  color: '#fff',
+  headingColor: '#424242'
+}
 
 export { themeLight, themeDark }

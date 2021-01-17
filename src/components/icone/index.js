@@ -19,12 +19,6 @@ const StyledIcone = styled(FontAwesomeIcon)`
   display: ${props => (props.block ? 'block' : 'initial')};
   margin: ${props => (props.margin ? props.margin : '')};
   color: inherit;
-  font-size: ${props =>
-    props.size == 'large'
-      ? '2.5rem'
-      : props.size == 'medium'
-      ? '2rem'
-      : '1rem'};
 `
 
 Icone.propTypes = {
